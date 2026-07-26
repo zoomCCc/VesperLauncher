@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MCLauncher</string>
+    <string name="home">主页</string>
+    <string name="versions">版本</string>
+    <string name="mods">模组</string>
+    <string name="modpacks">整合包</string>
+    <string name="resource_packs">资源包</string>
+    <string name="shaders">光影</string>
+    <string name="worlds">存档</string>
+    <string name="settings">设置</string>
+    <string name="launch">启动游戏</string>
+    <string name="download">下载</string>
+    <string name="install">安装</string>
+    <string name="delete">删除</string>
+    <string name="search">搜索...</string>
+    <string name="curseforge">CurseForge</string>
+    <string name="modrinth">Modrinth</string>
+    <string name="planetminecraft">Planet Minecraft</string>
+    <string name="platform">来源平台</string>
+    <string name="dark_theme">深色主题</string>
+    <string name="light_theme">浅色主题</string>
+    <string name="theme_setting">主题设置</string>
+    <string name="account">账户管理</string>
+    <string name="java_path">Java路径</string>
+    <string name="game_dir">游戏目录</string>
+    <string name="ram_allocation">内存分配</string>
+    <string name="about">关于</string>
+    <string name="version_management">版本管理</string>
+</resources>
