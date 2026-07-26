@@ -599,13 +599,13 @@ private suspend fun downloadContent(
     item: ContentItemData,
     downloader: VersionDownloader
 ) {
-    withContext(Dispatchers.IO) {
-        try {
+    try {
+        withContext(Dispatchers.Main) {
             Toast.makeText(
                 MCApplication.instance,
                 "正在下载 ${item.name}...",
                 Toast.LENGTH_SHORT
             ).show()
-        } catch (_: Exception) {}
-    }
+        }
+    } catch (_: Exception) {}
 }
